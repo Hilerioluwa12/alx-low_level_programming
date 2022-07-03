@@ -9,17 +9,17 @@ int main(void)
 {
 	int a, b;
 
-	a = 48;
-	b = 48;
+	a = 49;
+	b = 49;
 
 	while (b < 58)
 	{
-		a = 48;
-		while ( a < 58)
+		a = 49;
+		while (a < 58)
 		{
 			putchar(b);
 			putchar(a);
-			if (a == 57 && b == 57)
+			if (a == 57 && b == 56)
 			{
 				break;
 			}
