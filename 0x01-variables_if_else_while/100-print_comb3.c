@@ -19,7 +19,7 @@ int main(void)
 		{
 			putchar(b);
 			putchar(a);
-			if ( a == b)
+			if (b == a)
 			{
 				break;
 			}
