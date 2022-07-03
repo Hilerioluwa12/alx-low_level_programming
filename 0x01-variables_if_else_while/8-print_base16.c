@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main Printing all number in base 16 0 to 9 and a -f in llowercase.
+ * main - Printing all number in base 16 0 to 9 and a -f in llowercase.
  *
  * Return: Always 0 (Success)
  */
