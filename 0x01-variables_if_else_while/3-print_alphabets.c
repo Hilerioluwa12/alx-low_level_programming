@@ -8,8 +8,8 @@
 int main(void)
 {
 	char salp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
 	int a;
+
 	for (a = 0; a < 52; a++)
 	{
 		putchar(salp[a]);
