@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /*main - Determines if a number is positive, negative or zero.
- *
- *Retrun: Always 0 (Success)
- */
+*
+*Retrun: Always 0 (Success)
+*/
 /* betty style doc for function main goes there */
 int main(void)
 {
@@ -14,7 +14,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%d is positve\n", n);
+		printf("%d is positive\n", n);
 	}
 	else if (n == 0)
 	{
