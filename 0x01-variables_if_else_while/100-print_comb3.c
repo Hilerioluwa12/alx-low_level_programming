@@ -9,8 +9,8 @@ int main(void)
 {
 	int a, b;
 
-	a = 48;
-	b = 49;
+	a = 49;
+	b = 48;
 
 	while (b < 58)
 	{
