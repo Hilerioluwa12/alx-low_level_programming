@@ -12,8 +12,8 @@ int main (void)
 
 	c = 1;
 	e = 2;
-	printf("%ld", c);
-	printf("%ld", e);
+	printf("%ld, ", c);
+	printf("%ld, ", e);
 	for (a = 0; a < 48; a++)
 	{
 		fn = c + e;
