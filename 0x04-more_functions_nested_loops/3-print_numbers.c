@@ -11,7 +11,7 @@ void print_numbers(void)
 
 	for (a = 48; a <= 57; a++)
 	{
-		putchat("%d", a)
+		_putchar("%d", a)
 	}
-	putchat("\n")
+	_putchar("\n")
 }
