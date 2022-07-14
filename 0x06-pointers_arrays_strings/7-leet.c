@@ -18,8 +18,8 @@ char *leet(char *a)
 	while (a[i] != '\0')
 	{
 		for (j = 0; s[j] != '\0' && a[i] != s[j]; j++)
-		;		
-		if (j < 10)
+
+			if (j < 10)
 		{
 			a[i] = p[j];
 		}
