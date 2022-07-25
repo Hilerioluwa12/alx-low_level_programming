@@ -8,6 +8,6 @@
  */
 int main(int argc, char *argv[])
 {
-	printf("argv index %d is = %s\n", argc, argv[0]);
+	printf("%s\n", argc, argv[0]);
 	return (0);
 }
