@@ -22,7 +22,7 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 
 	for (b = 0; b < size; b++)
-		br[i] = c;
+		br[b] = c;
 
 	return (br);	
 }
