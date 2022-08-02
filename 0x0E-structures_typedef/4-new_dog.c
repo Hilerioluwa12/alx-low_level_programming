@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * strdup - duplicate a string
+ * _strdup - duplicate a string
  * @str: string
  *
  * Return: pointer to newely allocated space in memory
