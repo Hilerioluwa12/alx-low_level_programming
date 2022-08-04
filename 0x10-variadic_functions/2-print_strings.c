@@ -28,8 +28,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		printf("%s", str);
 		
 		if (i < n -1)
-			if (separator)
-				printf("%s", separator);
+			printf("%s", separator);
 	}
 
 	va_end(val);
