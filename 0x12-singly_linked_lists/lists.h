@@ -1,5 +1,5 @@
-#ifndef _LIST_H
-
+#ifndef _LINKED_H
+#define _LINKED_H
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -9,10 +9,11 @@
  * @str: string - (malloc'ed string)
  * @len: length of the string
  * @next: points to the next node
+ *
  * Description: singly linked list node structure
  * for Holberton project
  */
- typedef struct list_s
+typedef struct list_s
 {
 	char *str;
 	unsigned int len;
@@ -20,6 +21,6 @@
 } list_t;
 
 int _putchar(char c);
-size_t print_list(const list_t *hd);
+size_t print_list(const list_t *h);
 
 #endif
