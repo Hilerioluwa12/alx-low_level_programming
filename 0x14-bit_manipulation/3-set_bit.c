@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * set_bit - A function that sets value of a bit to 1
+ * set_bit- A function that sets value of a bit to
  * @n: unsigned long int
  * @index:unsigned int
  *
- * Retun: 1 if worked or -1 if error
+ * Return: (1) if worked or (-1) if error
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
