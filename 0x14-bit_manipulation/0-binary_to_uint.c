@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * binary_to_unit - a function that converts a binary number to an unsigned int.
+ * binary_to_unit - a function that converts a binary number
  * @b: pointer to the string 0 & 1
  *
  *Return: converted number
@@ -17,7 +17,8 @@ unsigned int binary_to_uint(const char *b)
 
 	uint = 0;
 
-	for (l =0; b[l] != '\0'; l++);
+	for (l = 0; b[l] != '\0'; l++)
+		;
 
 	for (l--, base_two = 1; l >= 0; l--, base_two *= 2)
 	{
