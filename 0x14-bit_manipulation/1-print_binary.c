@@ -2,7 +2,7 @@
 
 /**
  * print_binary - a function that prints binary rep of a no
- * #n: integer value
+ * @n: integer value
  *
  * Return: void
  *
