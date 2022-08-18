@@ -5,15 +5,15 @@
  * @n: unsigned long int
  * @index:unsigned int
  *
- * Retunr: 1 if worked or -1 if error
+ * Retun: 1 if worked or -1 if error
  */
-int set_bit(unsigned long int *n, unsigned index)
+int set_bit(unsigned long int *n, unsigned int index)
 {
 	unsigned int p;
 
 	if (index >= 32)
 		return (-1);
-	
+
 	p = 1 << index;
 	*n |= p;
 
