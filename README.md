@@ -24,7 +24,8 @@ This repository contains programs written for the low-level programming and algo
 * [bit_manipulation](https://github.com/Hilerioluwa12/alx-low_level_programming/tree/master/0x14-bit_manipulation)
 * [file_io](https://github.com/Hilerioluwa12/alx-low_level_programming/tree/master/0x15-file_io)
 * [0x17-doubly_linked_lists](https://github.com/Hilerioluwa12/alx-low_level_programming/tree/master/0x17-doubly_linked_lists)
-* [0x18-dynamic_libraries]()
+* [0x18-dynamic_libraries](https://github.com/Hilerioluwa12/alx-low_level_programming/tree/master/0x18-dynamic_libraries)
+* [0x1A-hash_tables](https://github.com/Hilerioluwa12/alx-low_level_programming/tree/master/0x1A-hash_tables)
 
 ---
 ## Authors
