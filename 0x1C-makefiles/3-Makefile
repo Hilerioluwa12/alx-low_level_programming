@@ -1,7 +1,7 @@
 # multiple rules
 CC = gcc
-NAME = holberton
-SRC = main.c holberton.c
+NAME = school
+SRC = main.c school.c
 OBJ = $(SRC:%.c=%.o)
 RM = rm
 all: $(OBJ)
